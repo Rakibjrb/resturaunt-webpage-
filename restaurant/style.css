@@ -1,0 +1,216 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: sans-serif;
+    font-size: 14px;
+    box-sizing: border-box;
+}
+.container{
+    width: 100%;
+    max-width: 960px;
+    margin: 0 auto;
+}
+/*for responsive*/
+#open{
+    display: none;
+}
+/*header area css*/
+header{
+    width: 100%;
+    height: 100vh;
+    background: url('img/images(5).jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+}
+header nav{
+    background: #18c994b6;
+}
+header nav .container{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    height: 60px;
+    align-items: center;
+}
+header nav .container.logo h1{
+    font-size: 30px;
+    font-family: 'Courier New', Courier, monospace;
+    margin-left: 20px;
+    color: #fff;}
+header nav .container .menu ul{
+    list-style: none;
+}
+header nav .container .menu ul li{
+    display: inline-block;
+}
+header  nav .container .menu ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+    padding: 0 20px;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: 0.5s;}
+header nav .container .menu ul li a:hover{
+    color: #ffff00;
+    font-weight: bold;
+}
+header .container .site_info{
+    width: 60%;
+    height: auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+header .container .site_info h1{
+    text-align: center;
+    font-size: 40px;
+    background: #ffff00dc;
+    color: #000;
+    padding: 15px 0;
+    border-radius: 5px;
+    font-family: 'Courier New', Courier, monospace;
+}
+header .container .site_info h3{
+    text-align: center;
+    background: #249124;
+    width: 50%;
+    margin: 20px auto;
+    padding: 15px 0;
+    font-size: 24px;
+    border-radius: 5px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+header .container .site_info a{
+    text-decoration: none;
+    color: #fff;
+    background: #249124;
+    padding: 10px 20px;
+    position: absolute;
+    left: 42%;
+    top: 100%;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 16px;
+    transition: 0.5s;
+    border-radius: 5px;
+}
+header .container .site_info a:hover{
+    background: #c0c0c0;
+    color: #000;
+}
+/*Food menu section css*/
+main #food_menu{
+    margin-top: 100px;
+}
+main #food_menu .container h2{
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+main #food_menu .div_row{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+}
+main #food_menu .div_col img{
+    width: 220px;
+}
+main #food_menu .div_col h3{
+    text-align: center;
+    background: #249124;
+    padding: 10px 0;
+    width: 220px;
+    color: #fff;
+    margin-top: -3px;
+}
+main #food_menu .div_col ul{
+    background: #6b6868;
+    width: 220px;
+    margin-top: 0px;
+    padding: 10px 0;
+}
+main #food_menu .div_col ul li{
+    list-style: none;
+    text-align: center;
+    margin: 8px 0;
+    color: #fff;
+}
+/*About us area css*/
+main #about_us{
+    margin-top: 100px;
+}
+main #about_us .container h1{
+    text-align: center;
+    font-size: 35px;
+    font-weight: 400;
+}
+main #about_us .container p{
+    text-align: center;
+    margin-top: 10px;
+}
+/*Contact area css*/
+main #contact{
+    margin-top: 100px;
+    margin-bottom: 20px;
+}
+main #contact .container h2{
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+main #contact .container .con_row{
+    background: #545676;
+    padding: 20px;
+    height: 200px;
+}
+main #contact .container .con_row .con_div1{
+    width: 60%;
+    float: left;
+}
+main #contact .container .con_row .con_div1 img{
+    width: 100%;
+    height: 200px;
+}
+main #contact .container .con_row .con_div2{
+    width: 40%;
+    float: left;
+}
+main #contact .container .con_row .con_div2 h2{
+    color: #fff;
+    font-size: 18px;
+    text-align: center;
+}
+main #contact .container .con_row .con_div2 h4{
+    text-align: center;
+    color: #fff;
+}
+main #contact .container .con_row .con_div2 h5{
+    text-align: center;
+    color: #fff;
+    margin-top: 6px;
+}
+main #contact .container .con_row .con_div2 p{
+    text-align: center;
+    color: #fff;
+    margin-top: 8px;
+}
+/*footer area css*/
+footer{
+    background: #000;
+    padding: 14px 0;
+    overflow: hidden;
+}
+footer .container p{
+    float: left;
+    color: #fff;
+}
+footer .container h2{
+    float: right;
+    font-size: 16px;
+    color: #fff;
+}
